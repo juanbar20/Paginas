@@ -1,3 +1,28 @@
 * {
     box-sizing: border-box;
+    background-color: rgb(214, 139, 101);
+}
+
+/*
+    #FF651D
+    #49EDE1
+*/
+
+.header {
+    display: flex ;
+    width: 100%;
+}
+
+.menu{
+    display: inline-block;
+}
+
+.logo-menu {
+    width: 8%;
+}
+
+
+
+footer {
+    text-align: center;
 }
