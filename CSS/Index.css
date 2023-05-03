@@ -1,26 +1,52 @@
 * {
     box-sizing: border-box;
     background-color: rgb(214, 139, 101);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /*
     #FF651D
     #49EDE1
+
 */
 
-.header {
-    display: flex ;
-    width: 100%;
-}
-
-.menu{
-    display: inline-block;
-}
-
 .logo-menu {
-    width: 8%;
+    width: 7em;
+    margin: auto;
 }
 
+.header {
+    border-radius: 5px;
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.op-menu {
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+}
+
+.op-menu:hover {
+    color: #49EDE1;
+    background-color: #FF651D;
+}
 
 
 footer {
